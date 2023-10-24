@@ -8,17 +8,19 @@
     </head>
     <body>
         <nav class="navbar navbar-default">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a style="color:black" href="/"></a>
-                </li>
-                <li>
-                    <a  style="color:black;" href="/create">New Customer</a>
-                </li>
-                <li>
-                    <a style="color:black;" href="/summary">Summary</a>
-                </li>
-            </ul>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a style="color:black;" href="/">Home</a>
+                    </li>
+                    <li>
+                        <a  style="color:black;" href="/create">New Customer</a>
+                    </li>
+                    <li>
+                        <a style="color:black;" href="/summary">Summary</a>
+                    </li>
+                </ul>
         </nav>
+        {% block content %}
+        {% endblock %}
     </body>
 </html>

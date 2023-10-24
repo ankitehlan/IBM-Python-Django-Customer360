@@ -28,8 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ['https://*.cognitiveclass.ai']
-
 # Application definition
 
 INSTALLED_APPS = [
